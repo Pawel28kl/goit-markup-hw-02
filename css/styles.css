@@ -152,3 +152,6 @@ body {
     line-height: 1.88;
     color: var(--paragraph-text);
 }
+.address {
+    font-style: normal;
+}
