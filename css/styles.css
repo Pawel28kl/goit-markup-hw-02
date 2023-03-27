@@ -24,7 +24,6 @@ body {
     color: var(--active-color);
 }
 .contacts-link-footer {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--first-text-on-background);
@@ -52,7 +51,6 @@ body {
     background-color: var(--first-background-color);
 }
 .addres-company {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--first-text-on-background);
@@ -107,7 +105,6 @@ body {
     text-transform: uppercase;
 }
 .third-header-descripton {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--paragraph-text);
@@ -125,9 +122,33 @@ body {
     text-align: center;
 }
 .studio-image-decription {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    color: var(--paragraph-text);
+}
+.portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    background-color: var(--portfolio-button-background);
+    cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+    color: var(--first-text-on-background);
+    background-color: var(--active-color);
+}
+.porfolio-image-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-image-description {
+    font-size: 16px;
+    line-height: 1.88;
     color: var(--paragraph-text);
 }
